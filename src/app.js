@@ -5,19 +5,27 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      count: 0
+      like: false,
+      count: 1000
     }
   }
   handleClick() {
     this.setState({
-      count: this.state.count + 1
+      count: this.state.count + (this.state.like ? -1 : 1),
+      like: !this.state.like
     })
   }
   render () {
+    var text;
+    if(this.state.like == false) {
+      text = "+"
+    } else {
+      text = "-"
+    }
     return(
       <div>
         <span>{this.state.count}</span>
-        <button onClick={this.handleClick.bind(this)}>+</button>
+        <button onClick={this.handleClick.bind(this)}>{text}</button>
       </div>
     )
   }

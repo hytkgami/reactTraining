@@ -1,10 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-class App extends React.Component {
-  render () {
-    return <p>Hello React!</p>;
-  }
-}
+import {Todo} from './Todo.js'
 
-render(<App/>, document.getElementById('app'));
+render(<Todo />, document.getElementById('app'));

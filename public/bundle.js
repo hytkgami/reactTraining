@@ -68,9 +68,14 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: Error: The node API for `babel` has been moved to `babel-core`.\n    at Object.<anonymous> (/Users/kagami/Documents/javascript/reactTraining/node_modules/babel/index.js:1:69)\n    at Module._compile (module.js:541:32)\n    at Object.Module._extensions..js (module.js:550:10)\n    at Module.load (module.js:458:32)\n    at tryModuleLoad (module.js:417:12)\n    at Function.Module._load (module.js:409:3)\n    at Module.require (module.js:468:17)\n    at require (internal/module.js:20:19)\n    at loadLoader (/Users/kagami/Documents/javascript/reactTraining/node_modules/loader-runner/lib/loadLoader.js:13:17)\n    at iteratePitchingLoaders (/Users/kagami/Documents/javascript/reactTraining/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/Users/kagami/Documents/javascript/reactTraining/node_modules/loader-runner/lib/LoaderRunner.js:362:2)\n    at NormalModule.doBuild (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModule.js:129:2)\n    at NormalModule.build (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModule.js:180:15)\n    at Compilation.buildModule (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/Compilation.js:142:10)\n    at moduleFactory.create (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/Compilation.js:424:9)\n    at /Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModuleFactory.js:242:4\n    at /Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModuleFactory.js:93:13\n    at /Users/kagami/Documents/javascript/reactTraining/node_modules/tapable/lib/Tapable.js:204:11\n    at NormalModuleFactory.params.normalModuleFactory.plugin (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/CompatibilityPlugin.js:52:5)\n    at NormalModuleFactory.applyPluginsAsyncWaterfall (/Users/kagami/Documents/javascript/reactTraining/node_modules/tapable/lib/Tapable.js:208:13)\n    at onDoneResolving (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModuleFactory.js:68:11)\n    at onDoneResolving (/Users/kagami/Documents/javascript/reactTraining/node_modules/webpack/lib/NormalModuleFactory.js:189:6)\n    at _combinedTickCallback (internal/process/next_tick.js:67:7)\n    at process._tickCallback (internal/process/next_tick.js:98:9)");
+"use strict";
+
+
+var sum = function sum(a, b) {
+  return a + b;
+};
 
 /***/ })
 /******/ ]);

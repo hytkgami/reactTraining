@@ -6,12 +6,17 @@ module.exports = {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
+  devServer: {
+    contentBase: 'public',
+    port: 3000,
+    inline: true
+  },
   module: {
     loaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel'
+        loader: 'babel-core'
       }
     ]
   }
